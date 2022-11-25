@@ -1,0 +1,16 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+.test{border: solid 2px #FFE072; padding:  10px 2vw; border-radius: 999px; margin-right: 0.5vw; font-family: 'pretendard'; color: rgb(68, 68, 68);; font-weight: 700; font-size: 1em; margin: 5vh 5vh 1vh 5vh; text-align: center;}
+.result{
+border: solid 2px #FFE072; padding:  10px 2vw; border-radius: 999px; margin-right: 0.5vw; font-family: 'pretendard'; color: rgb(68, 68, 68);; font-weight: 700; font-size: 1em; margin: 1vh 5vh 1vh 5vh; text-align: center;}
+
+.btnList{border: solid 2px #ffefb4; padding:  10px 2vw; border-radius: 999px; margin-right: 0.5vw; font-family: 'pretendard'; color: rgb(68, 68, 68);; font-weight: 700; font-size: 1em; margin: 1vh 5vh 1vh 5vh; text-align: center;}
+.display{display: none;}
+.btnList:hover{ background-color: rgb(255, 250, 238); color: rgb(255, 161, 38);}
+.result.resultClick{background-color: #FFE072; color:  rgb(66, 66, 66);}
+#onBtn ul li .btnList.clickBtn{ background-color: #ffefb4; color:rgb(255, 161, 38);}
+
+#imgSection{ margin: 0 auto; text-align: center; width: 100vw; margin-top: 3vh;}
+#img{width: 80vw;}
+
+.test:hover{background-color: #FFE072;}
+.result:hover{background-color: #FFE072;}

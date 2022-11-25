@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망고테스트 결과페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <a href="https://boyoungg.github.io/mangogotest/"><h2 class="test">테스트하기!</h2></a>
+    <h2 class="result">결과보기!</h2>
+    <div id="onBtn" class="display">
+        <ul>
+            <li>
+                <ul>
+                    <li class="clickBtn btnList" id="first">#배려심이 많은 맑음이</li>
+                    <li class="btnList" id="second">#사랑많은 맑음이</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li  class="btnList" id="third">#계획대로 척척하는 전진이</li>
+                    <li  class="btnList" id="fourth">#모험을 즐기는 전진이</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li  class="btnList" id="fifth">#깊은 대화를 좋아하는 다정이</li>
+                    <li  class="btnList" id="six">#감수성이 풍부한 다정이</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li  class="btnList" id="seven">#가방끈이 긴 똑똑이</li>
+                    <li  class="btnList" id="eight">#마이웨이 무심이</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="imgSection">
+        <img src="./img/main.png" alt="" id="img" >
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.result').click(function(){
+                $('.result').toggleClass('resultClick');
+                $('#onBtn').toggleClass('display');
+            });
+
+            $('.btnList').click(function(){
+                $('.btnList').removeClass('clickBtn');
+                $(this).addClass('clickBtn');
+            });
+
+
+            $("#first").click(function(){
+                $("#img").attr('src', './img/result1.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#second").click(function(){
+                $("#img").attr('src', './img/result2.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#third").click(function(){
+                $("#img").attr('src', './img/result3.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#fourth").click(function(){
+                $("#img").attr('src', './img/result4.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#fifth").click(function(){
+                $("#img").attr('src', './img/result5.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#six").click(function(){
+                $("#img").attr('src', './img/result6.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#seven").click(function(){
+                $("#img").attr('src', './img/result7.png');
+                $('#onBtn').addClass('display');
+            });
+
+            $("#eight").click(function(){
+                $("#img").attr('src', './img/result8.png');
+                $('#onBtn').addClass('display');
+            });
+        });
+    </script>
+</body>
+</html>
